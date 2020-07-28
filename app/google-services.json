@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "911058524916",
+    "firebase_url": "https://car-rent-5c565.firebaseio.com",
+    "project_id": "car-rent-5c565",
+    "storage_bucket": "car-rent-5c565.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911058524916:android:ee26d4b02e3db53cca9ca1",
+        "android_client_info": {
+          "package_name": "com.example.carrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911058524916-j2lrvrojjbg7rkvss102btcts92u81tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1KN2ws8lMPAW79u5J6q9yvGRwzQULJdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911058524916-j2lrvrojjbg7rkvss102btcts92u81tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

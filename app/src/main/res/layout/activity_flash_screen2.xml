@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashScreen2"
+    android:orientation="vertical"
+    android:background="#2B2B2B">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/yellowLine"
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:background="@drawable/yellow"
+            android:layout_centerHorizontal="true"/>
+        <View
+            android:id="@+id/blueLine"
+            android:layout_width="20dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/blue"
+            android:layout_toRightOf="@+id/yellowLine"/>
+        <View
+            android:id="@+id/redLine"
+            android:layout_width="20dp"
+            android:layout_height="260dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/red"
+            android:layout_toRightOf="@+id/blueLine"/>
+        <View
+            android:id="@+id/yellowLine2"
+            android:layout_width="20dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/yellow"
+            android:layout_toRightOf="@+id/redLine"/>
+        <View
+            android:id="@+id/greenLine"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/green"
+            android:layout_toRightOf="@+id/yellowLine2"/>
+        <View
+            android:id="@+id/blueLine2"
+            android:layout_width="20dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/red"
+            android:layout_toRightOf="@+id/greenLine"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="A"
+            android:textColor="#fff"
+            android:textSize="150sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tagLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/clicker_script"
+                android:text="Android Developer"
+                android:textColor="#fff"
+                android:textSize="24dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
